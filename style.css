@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+ }
+ ul{
+     list-style: none;
+     display: flex;
+     padding: 20px 0;
+ }
+ a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: white;
+ }
+ li{
+     padding: 0 20px;
+ }
+ 
+ .container{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     position: absolute;
+     width: 100%;
+ }
+ .img_fundo{
+     background-image: url(./img/bela.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .img_fundo h1{
+     color: white;
+     font-size: 3rem;
+     margin-bottom: 15px;
+ }
+ 
+ .img_fundo span{
+     color: rgb(214, 20, 62);
+ }
+ 
+ .img_fundo h3{
+     color: white;
+     margin-bottom: 30px;
+ }
+ .button{
+     padding: 20px 40px;
+     border: 1px solid rgb(210, 30, 105);
+     color: white;
+ }
+ 
+ .button:hover{
+     background-color: rgb(210, 30, 99);
+ }
